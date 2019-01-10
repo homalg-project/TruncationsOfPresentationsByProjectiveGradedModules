@@ -14,6 +14,7 @@ Subtitle := "Truncations of graded module presentations (for CAP) to affine semi
 
 Version := Maximum( [
   "2016.10.05", ## Martin's version
+  "2019.01.10", ## Martin's new version
 ] ),
 
 Date := ~.Version{[ 1 .. 10 ]},
@@ -25,19 +26,21 @@ Persons := [
     IsMaintainer := true,
     FirstNames := "Martin",
     LastName := "Bies",
-    WWWHome := "TODO",
-    Email := "bies@thphys.uni-heidelberg.de",
-    PostalAddress := Concatenation( 
-                 "Institut für theoretische Physik - Heidelberg \n",
-                 "Philosophenweg 19 \n",
-                 "69120 Heidelberg \n",
-                 "Germany" ), 
-    Place := "Heidelberg",
-    Institution := "ITP Heidelberg",
+    WWWHome := "https://www.ulb.ac.be/sciences/ptm/pmif/people.html",
+    Email := "martin.bies@alumni.uni-heidelberg.de",
+    PostalAddress := Concatenation(
+                 "Physique Théorique et Mathématique \n",
+                 "Université Libre de Bruxelles \n",
+                 "Campus Plaine - CP 231 \n",
+                 "Building NO - Level 6 - Office O.6.111 \n",
+                 "1050 Brussels \n",
+                 "Belgium" ), 
+    Place := "Brussels",
+    Institution := "ULB Brussels",
   ),
 ],
 
-PackageWWWHome := "http://TODO/",
+PackageWWWHome := "https://github.com/HereAround/TruncationsOfPresentationsByProjectiveGradedModules",
 
 ArchiveURL     := Concatenation( ~.PackageWWWHome, "TruncationsOfPresentationsByProjectiveGradedModules-", ~.Version ),
 README_URL     := Concatenation( ~.PackageWWWHome, "README" ),
