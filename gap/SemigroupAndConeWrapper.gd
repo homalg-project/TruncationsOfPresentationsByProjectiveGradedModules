@@ -2,7 +2,7 @@
 ##
 ## TruncationsOfPresentationsByProjectiveGradedModules package
 ##
-##  Copyright 2016, Martin Bies,       ITP Heidelberg
+##  Copyright 2019, Martin Bies,       ULB Brussels
 ##
 #! @Chapter Wrapper for generators of semigroups and hyperplane constraints of cones
 ##
