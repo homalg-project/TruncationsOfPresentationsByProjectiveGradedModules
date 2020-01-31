@@ -15,6 +15,9 @@ README file for the `TruncationsOfPresentationsByProjectiveGradedModules' GAP4 p
 To get the latest version of this GAP 4 package pull the corresponding branch
 from github. This completes the installation of the package.
 
+The functionality of this package has been ported to https://github.com/homalg-project/SheafCohomologyOnToricVarieties/tree/master/TruncationsOfFPGradedModules.
+Use this package for the latest functionality.
+
 E-mail me if there are any questions, remarks, suggestions. Also, I
 would like to hear about applications of this package.
 
